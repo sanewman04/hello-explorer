@@ -2,3 +2,110 @@
 a.active {
     font-weight: bold;
 }
+
+body {
+    background: #b8861c;
+    background: linear-gradient(90deg,rgba(184, 134, 28, 1) 0%, rgba(0, 0, 0, 1) 38%);
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 50px;
+}
+
+p {
+    text-align: left;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 100px 100px 100px;
+    font-size: 30px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 0px 20px 100px 20px;
+}
+
+
+.earth-earthpage {
+    display: inline-block;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 20px #fffddf;
+}
+
+.earth-earthpage img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.earth-earthpage:hover {
+    transform: scale(1.1);
+}
+
+.moon-earthpage {
+    display: inline-block;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.moon-earthpage img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.moon-earthpage:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.earth-moonpage {
+    display: inline-block;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.earth-moonpage img {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.earth-moonpage:hover {
+    transform: scale(1.1);
+}
+
+.moon-moonpage {
+    display: inline-block;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 20px #fffddf;
+}
+
+.moon-moonpage img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 50%;
+    display: block;
+}
+
+.moon-moonpage:hover {
+    transform: scale(1.1);
+}
